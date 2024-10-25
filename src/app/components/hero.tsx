@@ -13,11 +13,11 @@ const Hero = () => {
   const data = [
     {
       id: 1,
-      title: " Hello, I'm Nimra! ",
+      title: " Hello, I&apos;m Nimra! ",
       description: "A tech enthusiast with a passion for building innovative solutions.",
       image: {
         src: pic2, 
-        alt: 'Doughnut Slide',
+        alt: 'intro slide',
       },
     },
     {
@@ -26,7 +26,7 @@ const Hero = () => {
       description: "Crafting functional and dynamic websites with clean code and seamless user experiences.",
       image: {
         src: pic4, 
-        alt: 'Biscuit Slide',
+        alt: 'skill 1',
       },
     },
     {
@@ -35,7 +35,7 @@ const Hero = () => {
       description: "Designing visually appealing, responsive, and user-friendly web interfaces that leave a lasting impression.",
       image: {
         src: pic3, 
-        alt: 'Cake Slide',
+        alt: 'skill 2',
       },
     },
     {
@@ -44,7 +44,7 @@ const Hero = () => {
       description: "Continuously expanding my skillset to handle both frontend and backend development for complete, robust web solutions.",
       image: {
         src: pic7, 
-        alt: 'Cake Slide',
+        alt: 'skill 3',
       },
     },
     {
@@ -53,7 +53,7 @@ const Hero = () => {
       description: "Sharing my knowledge to inspire and guide others in their journey through web development and design.",
       image: {
         src: pic1, 
-        alt: 'Cake Slide',
+        alt: 'skill 4',
       },
     }
   ];

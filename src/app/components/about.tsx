@@ -21,10 +21,10 @@ const About = () => {
               About Me
             </h1>
             <p className="mb-5 leading-relaxed text-stone-700 text-xl font-semibold">
-            Hi, I'm Nimra! I'm a passionate frontend developer with a knack for building functional and visually appealing websites using HTML, CSS, and TypeScript. I love both coding and design, ensuring each project I work on is user-friendly and efficient.
+            Hi, I&apos;m Nimra! I&apos;m a passionate frontend developer with a knack for building functional and visually appealing websites using HTML, CSS, and TypeScript. I love both coding and design, ensuring each project I work on is user-friendly and efficient.
             </p>
             <p className="mb-5 leading-relaxed text-stone-700 text-xl font-semibold">
-            Currently, I'm expanding my skills as an aspiring fullstack developer to handle complete web applications. I'm also dedicated to teaching, helping others grow in their web development journey.
+            Currently, I&apos;m expanding my skills as an aspiring fullstack developer to handle complete web applications. I&apos;m also dedicated to teaching, helping others grow in their web development journey.
             </p>
           </div>
         </div>

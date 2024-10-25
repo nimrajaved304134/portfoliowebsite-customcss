@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 import Link from 'next/link'
 import React from 'react'
 import Menu from '../components/menu'
@@ -8,7 +8,7 @@ const Navbar = () => {
 <nav className='h-14 text-stone-700 p-4 flex items-center justify-around space-x-2 border-b-8 border-b-rose-500 border-8 border-opacity-40 uppercase md:h-24 lg:px-20 xl:px-40'>
 
     <div className='text-3xl font-bold md:font-extrabold flex-1 md:text-center italic '>
-       <Link href='/' className='items-center justify-between text-center mx-8 md:justify-end'> NIMRA'S PORTFOLIO </Link> 
+       <Link href='/' className='items-center justify-between text-center mx-8 md:justify-end'> NIMRA&apos;S PORTFOLIO </Link> 
     </div>
 
     <div className='hidden md:flex gap-4 flex-1 justify-end font-semibold'>

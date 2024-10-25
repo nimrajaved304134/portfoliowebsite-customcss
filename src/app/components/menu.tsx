@@ -3,6 +3,8 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import Link from 'next/link';
+import openicon from '../../../public/open.png'
+import closeicon from '../../../public/close.png'
 
 const Menu = () => {
   const [open, setOpen] = useState(false);
@@ -11,7 +13,7 @@ const Menu = () => {
       <div>
         {!open ? (
           <Image
-            src={require("../../../public/open.png")}
+            src= {openicon}
             alt=""
             width={20}
             height={20}
@@ -19,7 +21,7 @@ const Menu = () => {
           />
         ) : (
           <Image
-            src={require("../../../public/close.png")}
+            src= {closeicon}
             alt=""
             width={20}
             height={20}
