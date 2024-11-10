@@ -1,0 +1,94 @@
+.class {
+    width: 100%;    /* w-full */
+  }
+
+  .class1 {
+    width: 100%;            /* container */
+    max-width: 1280px;      /* container's max-width */
+    margin-left: auto;      /* mx-auto */
+    margin-right: auto;     /* mx-auto */
+    padding-left: 1.25rem;  /* px-5 */
+    padding-right: 1.25rem; /* px-5 */
+    padding-top: 2rem;      /* py-8 */
+    padding-bottom: 2rem;   /* py-8 */
+    display: flex;          /* flex */
+    align-items: center;    /* items-center */
+    flex-direction: column; /* flex-col */
+    background-color: transparent; /* bg-transparent */
+  }
+  
+  /* Media Query */
+  @media (min-width: 640px) {  /* sm: breakpoint */
+    .class1 {
+      flex-direction: row;  /* sm:flex-row */
+    }
+  }
+
+  .class2 {
+    display: flex;
+    font-family: "title-font", sans-serif;  /* title-font - you may want to specify your actual title font */
+    font-weight: 500;                       /* font-medium */
+    align-items: center;                    /* items-center */
+    justify-content: center;                /* justify-center */
+    color: #44403c;                        /* text-stone-700 */
+  }
+  
+  /* Media Query */
+  @media (min-width: 768px) {              /* md: breakpoint */
+    .class2 {
+      justify-content: flex-start;         /* md:justify-start */
+    }
+  }
+
+  .class3 {
+    margin-left: 0.75rem;    /* ml-3 */
+    font-size: 1.25rem;      /* text-xl */
+    line-height: 1.75rem;    /* text-xl also includes line-height */
+  }
+
+  .class4 {
+    font-size: 0.875rem;      /* text-sm */
+    color: #78716c;           /* text-stone-500 */
+    margin-top: 1rem;         /* mt-4 */
+  }
+  
+  /* Small screen breakpoint and above */
+  @media (min-width: 640px) {  /* sm: breakpoint */
+    .class4 {
+      margin-left: 1rem;      /* sm:ml-4 */
+      padding-left: 1rem;     /* sm:pl-4 */
+      padding-top: 0.5rem;    /* sm:py-2 */
+      padding-bottom: 0.5rem;
+      border-left: 2px solid #e5e7eb;  /* sm:border-l-2 sm:border-gray-200 */
+      margin-top: 0;          /* sm:mt-0 */
+    }
+  }
+
+  .class5 {
+    display: inline-flex;     /* inline-flex */
+    margin-top: 1rem;         /* mt-4 */
+    justify-content: center;  /* justify-center */
+  }
+  
+  /* Small screens and up (sm: breakpoint) */
+  @media (min-width: 640px) {
+    .class5 {
+      margin-left: auto;      /* sm:ml-auto */
+      margin-top: 0;          /* sm:mt-0 */
+      justify-content: flex-start; /* sm:justify-start */
+    }
+  }
+
+  
+.class6 {
+    color: #78716c;  /* stone-500 hex color value */
+  }
+
+  .class7{
+    font-size: 1.875rem;  /* text-3xl */
+    line-height: 2.25rem; /* text-3xl also includes this line height */
+  }
+  
+  .class7:hover {
+    color: #0077b5;
+  }

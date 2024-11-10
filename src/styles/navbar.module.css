@@ -1,0 +1,87 @@
+.class {
+    height: 4.5rem;          /* h-18 */
+    color: #44403c;          /* text-stone-700 */
+    padding: 1rem;           /* p-4 */
+    display: flex;           /* flex */
+    align-items: center;     /* items-center */
+    justify-content: space-around;  /* justify-around */
+    border-bottom: 8px solid rgba(244, 63, 94, 0.4);  /* border-b-8 border-b-rose-500 border-opacity-40 */
+    text-transform: uppercase;  /* uppercase */
+  }
+  
+  /* Media Queries */
+  @media (min-width: 768px) {  /* md: breakpoint */
+    .class {
+      height: 6rem;          /* md:h-24 */
+    }
+  }
+  
+  @media (min-width: 1024px) {  /* lg: breakpoint */
+    .class {
+      padding-left: 5rem;    /* lg:px-20 */
+      padding-right: 5rem;
+    }
+  }
+  
+  @media (min-width: 1280px) {  /* xl: breakpoint */
+    .class {
+      padding-left: 10rem;   /* xl:px-40 */
+      padding-right: 10rem;
+    }
+  }
+
+  .class1 {
+    font-size: 1.875rem;     /* text-3xl */
+    line-height: 2.25rem;    /* text-3xl includes line height */
+    font-weight: 700;        /* font-bold */
+    flex: 1 1 0%;            /* flex-1 */
+    font-style: italic;      /* italic */
+  }
+  
+  /* Media Query */
+  @media (min-width: 768px) {  /* md: breakpoint */
+    .class1 {
+      font-weight: 800;      /* md:font-extrabold */
+      text-align: center;    /* md:text-center */
+    }
+  }
+
+
+.class2 {
+    align-items: center;          /* items-center */
+    justify-content: space-between; /* justify-between */
+    text-align: center;           /* text-center */
+    margin-left: 2rem;            /* mx-8 */
+    margin-right: 2rem;           /* mx-8 */
+  }
+  
+  @media (min-width: 768px) {     /* md: breakpoint */
+    .class2 {
+      justify-content: flex-end;  /* md:justify-end */
+    }
+  }
+
+  .class3 {
+    display: none;           /* hidden */
+    gap: 1rem;              /* gap-4 */
+    flex: 1;                /* flex-1 */
+    justify-content: flex-end;  /* justify-end */
+    font-weight: 600;       /* font-semibold */
+  }
+  
+  /* Media Query */
+  @media (min-width: 768px) {  /* md: breakpoint */
+    .class3 {
+      display: flex;        /* md:flex */
+    }
+  }
+
+  .class4 {
+    margin-right: 1.25rem;  /* mr-5 */
+  }
+  
+  .class4:hover {
+    color: #1e40af;        /* hover:text-blue-800 */
+    font-size: 1.875rem;   /* hover:text-3xl */  
+    line-height: 2.25rem;  /* hover:text-3xl also sets this */
+  }

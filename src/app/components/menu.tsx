@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import openicon from '../../../public/open.png'
 import closeicon from '../../../public/close.png'
+import styles from '../../styles/menu.module.css'
 
 const Menu = () => {
   const [open, setOpen] = useState(false);
@@ -30,20 +31,20 @@ const Menu = () => {
         )}
       </div>
       
-        {open&& <div className='text-white bg-gradient-to-bl from-blue-600 to-red-600 absolute left-0 top-24 h-[calc(100vh-6rem)] flex flex-col gap-8 items-center justify-center w-full text-3xl z-10'>
-            <Link href={"/"} className="mr-5 hover:text-blue-600">
+        {open&& <div className={styles.class}>
+            <Link href={"/"} className={styles.class1}>
               Home
             </Link>
-            <Link href={"#about"} onClick={()=>setOpen(false)} className="mr-5 hover:text-blue-800">
+            <Link href={"#about"} onClick={()=>setOpen(false)} className={styles.class2}>
               About
             </Link>
-            <Link href={"#skills"} onClick={()=>setOpen(false)} className="mr-5 hover:text-blue-800">
+            <Link href={"#skills"} onClick={()=>setOpen(false)} className={styles.class2}>
               Skills
             </Link>
-            <Link href={"#projects"} onClick={()=>setOpen(false)} className="mr-5 hover:text-blue-800">
+            <Link href={"#projects"} onClick={()=>setOpen(false)} className={styles.class2}>
               Projects
             </Link>
-            <Link href={"#contact"} onClick={()=>setOpen(false)} className="mr-5 hover:text-blue-800">
+            <Link href={"#contact"} onClick={()=>setOpen(false)} className={styles.class2}>
               Contact
             </Link>
         </div>

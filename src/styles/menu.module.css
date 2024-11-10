@@ -1,0 +1,42 @@
+.class {
+    /* Typography */
+    color: white;
+    font-size: 1.875rem;  /* text-3xl */
+    line-height: 2.25rem; /* text-3xl */
+  
+    /* Background */
+    background: linear-gradient(to bottom left, #2563eb, #dc2626); /* from-blue-600 to-red-600 */
+  
+    /* Positioning */
+    position: absolute;
+    left: 0;
+    top: 6rem;    /* top-24 (24 * 0.25rem = 6rem) */
+    z-index: 10;
+  
+    /* Size */
+    width: 100%;
+    height: calc(100vh - 6rem);
+  
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;       /* gap-8 (8 * 0.25rem = 2rem) */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .class1{
+    margin-right: 1.25rem;  /* mr-5 */
+  }
+  
+  .class1:hover {
+    color: rgb(37, 99, 235);  /* hover:text-blue-600 */
+  }
+
+  .class2 {
+    margin-right: 1.25rem; /* mr-5 */
+}
+
+.class2:hover {
+    color: #1e40af; /* hover:text-blue-800 */
+}
